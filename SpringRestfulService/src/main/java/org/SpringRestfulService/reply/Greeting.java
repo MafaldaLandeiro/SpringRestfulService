@@ -1,10 +1,9 @@
 package org.SpringRestfulService.reply;
 
-import java.util.Date;
 
 public class Greeting {
 	
-	private Date date;
+	private String date;
 	
 	private String content;
 
@@ -12,7 +11,7 @@ public class Greeting {
 	 * @param date
 	 * @param content
 	 */
-	public Greeting(Date date, String content) {
+	public Greeting(String date, String content) {
 		super();
 		this.date = date;
 		this.content = content;
@@ -21,14 +20,14 @@ public class Greeting {
 	/**
 	 * @return the date
 	 */
-	public Date getDate() {
+	public String getDate() {
 		return date;
 	}
 
 	/**
 	 * @param date the date to set
 	 */
-	public void setDate(Date date) {
+	public void setDate(String date) {
 		this.date = date;
 	}
 
