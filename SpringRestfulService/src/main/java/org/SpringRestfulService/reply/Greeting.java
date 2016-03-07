@@ -1,4 +1,4 @@
-package org.SpringRestfulService.Reply;
+package org.SpringRestfulService.reply;
 
 import java.util.Date;
 
